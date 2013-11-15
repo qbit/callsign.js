@@ -20,8 +20,8 @@ callmgr.get('<callsign>', function(info) {
 
 Options that can be passed in:
 
-* *url*: must contain two "variables", %S and %C. %S being the callsign to
+* **url**: must contain two "variables", %S and %C. %S being the callsign to
 be looked up and %C being the callback to call.
-* *map*: list of field mappings from the raw JSON to "pretty" names.
-* *callback*: callback to use for the JSONP request.
+* **map**: list of field mappings from the raw JSON to "pretty" names.
+* **callback**: callback to use for the JSONP request.
 
